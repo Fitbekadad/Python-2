@@ -1,0 +1,15 @@
+#input
+Water = float(input("Amount of Water:"))
+Temp = float(input("Temperature:"))
+C = 4.186
+kWh = 2.77778e-7
+Cost = 25.9
+
+
+#algo
+Energy = Water * Temp * C
+Wh = Energy * kWh
+Costs = round(Wh * Cost, 1) # StS - Try to prevent rounding here 
+
+#output
+print("Energy is",Energy, "\nEnergy costs:", Costs)
