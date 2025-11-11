@@ -1,0 +1,11 @@
+#input
+calories = float(input("Enter energy in calories (cal): "))
+
+#algo
+joules = calories * 4.184
+
+#output
+print(calories,"cal", "=", joules, "Joules")
+
+# StS Don't use Constants (4.184) directly in the code - define them
+# 4 / 5
